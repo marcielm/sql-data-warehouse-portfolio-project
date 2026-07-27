@@ -6,17 +6,17 @@ Built as a portfolio project, this repository demonstrates best practices in SQL
 
 ---
 
-## Data Architecture
+🧱 ## Data Architecture
 
 This project follows the Medallion Architecture framework, organizing data into Bronze, Silver, and Gold layers to create a scalable, maintainable, and analytics-ready data warehouse.
 
-**Bronze Layer** – Raw Data
+**Bronze Layer**: Raw Data
 Stores data in its original format as it is received from the source systems. Raw data is ingested from CSV files into a SQL Server database, preserving the original records for traceability and auditing.
 
-**Silver Layer** – Cleansed & Transformed Data
+**Silver Layer**: Cleansed & Transformed Data
 Applies data cleansing, standardization, validation, and normalization to improve data quality and prepare datasets for downstream processing and analysis.
 
-**Gold Layer** – Business-Ready Data
+**Gold Layer**: Business-Ready Data
 Delivers curated, analytics-ready datasets modeled using a star schema. This layer is optimized for business intelligence, reporting, and analytics.
 
 ---
@@ -25,7 +25,7 @@ Delivers curated, analytics-ready datasets modeled using a star schema. This lay
 
 This project demonstrates the end-to-end development of a modern data warehouse and analytics solution using SQL Server and industry-standard data engineering practices. Key components include:
 
-🏗️ Data Architecture – Designing a scalable data warehouse using the Medallion Architecture with Bronze, Silver, and Gold layers.
+**Data Architecture** : Designing a scalable data warehouse using the Medallion Architecture with Bronze, Silver, and Gold layers.
 
 ⚙️ ETL Pipelines – Building robust Extract, Transform, and Load (ETL) processes to ingest, cleanse, and integrate data from multiple source systems.
 
