@@ -1,8 +1,8 @@
 # Data Warehouse and Analytics Project
 
-Welcome this project showcases the design and implementation of a modern data warehouse and analytics solution using industry-standard data engineering practices. It covers the complete data lifecycle—from data ingestion and ETL pipelines to dimensional modeling and analytical reporting—transforming raw data into meaningful business insights.
+This project demonstrates the end-to-end design and implementation of a modern data warehouse and business intelligence solution using industry-standard data engineering practices. It covers the full data lifecycle, including data ingestion, ETL processing, data cleansing, dimensional modeling, and analytical reporting, transforming raw ERP and CRM data into structured, business-ready insights.
 
-Built as a portfolio project, this repository demonstrates best practices in SQL development, data warehouse architecture, and analytics engineering, reflecting the skills and methodologies used in real-world enterprise environments.
+Developed as a portfolio project, this repository highlights practical experience in SQL development, data warehouse architecture, data modeling, data quality validation, and analytics engineering. It reflects the processes, design principles, and technical standards commonly used in real-world enterprise data environments.
 
 ---
 
