@@ -51,3 +51,56 @@ Build a modern SQL Server data warehouse that consolidates data from multiple bu
 - **Data Modeling**: Design a star schema with fact and dimension tables.
 - **Scope**: Process only the latest dataset; no historical tracking or SCDs.
 - **Documentation**: Provide clear documentation for the data model, ETL, and architecture.
+
+---
+
+### 📊 BI: Analytics & Reporting (Data Analysis)
+
+#### Objective:
+
+Develop SQL-based analytical solutions that deliver actionable insights into:
+
+- **Customer Behavior** – Analyze customer behavior, segmentation, and purchasing patterns.
+- **Product Performance** – Evaluate product performance, profitability, and sales contribution.
+- **Sales Trends** – Identify sales trends, revenue growth, and key business metrics over time.
+
+These analyses provide stakeholders with meaningful business metrics, reveal performance patterns, and support informed strategic decision-making.
+
+---
+
+## 📂 Repository Structure
+```
+data-warehouse-project/
+│
+├── datasets/                           # Source datasets used in the project, including ERP and CRM data
+│
+├── docs/                               # Project documentation, architecture diagrams, and design standards
+│   ├── etl.drawio                      # Visual overview of the ETL processes, techniques, and workflow
+│   ├── data_architecture.drawio        # High-level diagram of the data warehouse architecture
+│   ├── data_catalog.md                 # Data dictionary containing field definitions, data types, and metadata
+│   ├── data_flow.drawio                # Diagram illustrating the movement of data through each warehouse layer
+│   ├── data_models.drawio              # Dimensional data models, including the star schema design
+│   ├── naming-conventions.md           # Naming standards for database objects, columns, scripts, and files
+│
+├── scripts/                            # SQL scripts used for data ingestion, transformation, and modeling
+│   ├── bronze/                         # Scripts for loading raw source data into the bronze layer
+│   ├── silver/                         # Scripts for cleansing, standardizing, and transforming data
+│   ├── gold/                           # Scripts for creating business-ready analytical tables and models
+│
+├── tests/                              # Data quality checks and validation scripts
+│
+├── README.md                           # Project overview, architecture, setup instructions, and usage guidance
+├── LICENSE                             # Repository licensing terms and usage permissions
+├── .gitignore                          # Files and directories excluded from version control
+└── requirements.txt                    # Project dependencies and required software packages
+```
+---
+
+## 🌟 About Me
+
+Hi, I'm **Marc Marciel** an IT graduate and aspiring Data Analyst with a strong interest in using data to solve business problems and support better decision-making.
+
+Through hands-on projects, I apply SQL and analytical techniques to clean, explore, and interpret complex datasets, identify meaningful trends, and transform raw information into clear, actionable insights.
+
+My portfolio reflects my continued growth in data analytics, technical problem-solving, and business-focused analysis. Each project is designed not only to strengthen my technical skills, but also to demonstrate how data can be used to answer important questions, improve processes, and create measurable value. 
+
