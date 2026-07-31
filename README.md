@@ -43,16 +43,11 @@ This project demonstrates the end-to-end development of a modern data warehouse 
 
 Build a modern SQL Server data warehouse that consolidates data from multiple business systems into a centralized, analytics-ready repository for reporting and decision-making.
 
-#### Requirements:
+#### Specifications:
 
-**Data Ingestion**: Load data from ERP and CRM CSV files.
-
-**Data Quality**: Cleanse, standardize, and validate the data.
-
-**Data Integration**: Combine both sources into a unified dimensional model.
-
-**Data Modeling**: Design a star schema with fact and dimension tables.
-
-**Project Scope**: Process only the latest dataset; no historical tracking or SCDs.
-
-**Documentation**: Provide clear documentation for the data model, ETL, and architecture.
+- **Data Sources**: Load data from ERP and CRM CSV files.
+- **Data Quality**: Cleanse, standardize, and validate the data.
+- **Data Integration**: Combine both sources into a unified dimensional model.
+- **Data Modeling**: Design a star schema with fact and dimension tables.
+- **Scope**: Process only the latest dataset; no historical tracking or SCDs.
+- **Documentation**: Provide clear documentation for the data model, ETL, and architecture.
