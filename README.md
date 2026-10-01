@@ -7,7 +7,8 @@ This portfolio project demonstrates the end-to-end design and implementation of 
 ## 🧱 Data Architecture
 
 This project follows the Medallion Architecture framework, organizing data into Bronze, Silver, and Gold layers to create a scalable, maintainable, and analytics-ready data warehouse.
-<img width="1700" height="1100" alt="data_architecture_final" src="https://github.com/user-attachments/assets/3c207d05-355f-4b8f-ae2c-1130948bcd2d" />
+
+<img width="890" height="698" alt="data_architecture_final" src="https://github.com/user-attachments/assets/0f1224fc-8ca7-41ab-92ff-df151df889ee" />
 
 **Bronze Layer**: Raw Data
 Stores data in its original format as it is received from the source systems. Raw data is ingested from CSV files into a SQL Server database, preserving the original records for traceability and auditing.
