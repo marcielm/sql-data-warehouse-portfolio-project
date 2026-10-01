@@ -1,14 +1,13 @@
 # Data Warehouse and Analytics Project
 
-This project demonstrates the end-to-end design and implementation of a modern data warehouse and business intelligence solution using industry-standard data engineering practices. It covers the full data lifecycle, including data ingestion, ETL processing, data cleansing, dimensional modeling, and analytical reporting, transforming raw ERP and CRM data into structured, business-ready insights.
-
-Developed as a portfolio project, this repository highlights practical experience in SQL development, data warehouse architecture, data modeling, data quality validation, and analytics engineering. It reflects the processes, design principles, and technical standards commonly used in real-world enterprise data environments.
+This portfolio project demonstrates the end-to-end design and implementation of a modern data warehouse. It covers the full data lifecycle, including data ingestion, ETL processing, data cleansing, dimensional modeling, and analytical reporting, transforming raw ERP and CRM data into structured, business-ready insights. Implementing industry-standard practices in data engineering and analytics.
 
 ---
 
 ## 🧱 Data Architecture
 
 This project follows the Medallion Architecture framework, organizing data into Bronze, Silver, and Gold layers to create a scalable, maintainable, and analytics-ready data warehouse.
+<img width="1700" height="1100" alt="data_architecture_final" src="https://github.com/user-attachments/assets/3c207d05-355f-4b8f-ae2c-1130948bcd2d" />
 
 **Bronze Layer**: Raw Data
 Stores data in its original format as it is received from the source systems. Raw data is ingested from CSV files into a SQL Server database, preserving the original records for traceability and auditing.
