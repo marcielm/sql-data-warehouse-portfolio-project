@@ -10,13 +10,13 @@ This project follows the Medallion Architecture framework, organizing data into 
 
 <img width="890" height="698" alt="data_architecture_final" src="https://github.com/user-attachments/assets/0f1224fc-8ca7-41ab-92ff-df151df889ee" />
 
-**Bronze Layer**: Raw Data
+**1. Bronze Layer**: Raw Data
 Stores data in its original format as it is received from the source systems. Raw data is ingested from CSV files into a SQL Server database, preserving the original records for traceability and auditing.
 
-**Silver Layer**: Cleaned & Standardized Data
+**2. Silver Layer**: Cleaned & Standardized Data
 Applies data cleansing, standardization, validation, and normalization to improve data quality and prepare datasets for downstream processing and analysis.
 
-**Gold Layer**: Business-Ready Data
+**3. Gold Layer**: Business-Ready Data
 Delivers curated, analytics-ready datasets modeled using a star schema. This layer is optimized for business intelligence, reporting, and analytics.
 
 ---
@@ -29,9 +29,9 @@ This project demonstrates the end-to-end development of a modern data warehouse 
 
 **ETL Pipelines**: Building robust Extract, Transform, and Load (ETL) processes to ingest, cleanse, and integrate data from multiple source systems.
 
-**Data Modeling**: Designing optimized fact and dimension tables using a star schema to support high-performance analytical queries.
+**Data Modeling**: Designing optimized fact and dimension tables using a star schema to support analytical queries.
 
-**Analytics & Reporting**: Developing SQL-based analytical queries and reporting datasets that deliver actionable business insights and support data-driven decision-making.
+**Analytics & Reporting**: Developing SQL-based analytical queries, reports, and dashboards that deliver actionable business insights and support data-driven decision-making.
 
 ---
 
@@ -60,9 +60,9 @@ Build a modern SQL Server data warehouse that consolidates data from multiple bu
 
 Develop SQL-based analytical solutions that deliver actionable insights into:
 
-- **Customer Behavior** – Analyze customer behavior, segmentation, and purchasing patterns.
-- **Product Performance** – Evaluate product performance, profitability, and sales contribution.
-- **Sales Trends** – Identify sales trends, revenue growth, and key business metrics over time.
+- **Customer Behavior** 
+- **Product Performance** 
+- **Sales Trends** 
 
 These analyses provide stakeholders with meaningful business metrics, reveal performance patterns, and support informed strategic decision-making.
 
