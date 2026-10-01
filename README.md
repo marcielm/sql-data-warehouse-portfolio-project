@@ -13,7 +13,7 @@ This project follows the Medallion Architecture framework, organizing data into 
 **Bronze Layer**: Raw Data
 Stores data in its original format as it is received from the source systems. Raw data is ingested from CSV files into a SQL Server database, preserving the original records for traceability and auditing.
 
-**Silver Layer**: Cleansed & Transformed Data
+**Silver Layer**: Cleaned & Standardized Data
 Applies data cleansing, standardization, validation, and normalization to improve data quality and prepare datasets for downstream processing and analysis.
 
 **Gold Layer**: Business-Ready Data
