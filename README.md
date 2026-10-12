@@ -98,7 +98,7 @@ data-warehouse-project/
 
 ## 🌟 About Me
 
-Hi, I'm **Marc Marciel** an IT graduate and aspiring Data Analyst with a strong interest in using data to solve business problems and support better decision-making.
+Hi, I'm **Marc Marciel** an IT graduate and Data Analyst with a strong interest in using data to solve business problems and support better decision-making.
 
 Through hands-on projects, I apply SQL and analytical techniques to clean, explore, and interpret complex datasets, identify meaningful trends, and transform raw information into clear, actionable insights.
 
